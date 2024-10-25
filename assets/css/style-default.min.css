@@ -78,6 +78,10 @@ h4 {
   line-height: 2.4000000000000004rem;
   line-height: 2rem;
 }
+.register-button{
+  font-weight:600 !important;
+  font-size:2rem !important;
+}
 .lgx-table thead tr th,
 blockquote {
   font-weight: 400;
@@ -110,6 +114,9 @@ blockquote p {
 }
 img {
   max-width: 100%;
+}
+.main-logo{
+  width:20%;
 }
 table td,
 table th {
@@ -6230,7 +6237,7 @@ button:hover:after {
   -moz-transition: all 0.2s ease-in-out 0s;
   -o-transition: all 0.2s ease-in-out 0s;
   transition: all 0.2s ease-in-out 0s;
-  max-width: 145px;
+  /* max-width: 145px; */
 }
 .lgx-header-position-fixed.menu-onscroll,
 .lgx-header-position-fixed.menu-onscroll .navbar-collapse {
@@ -6493,7 +6500,7 @@ button:hover:after {
   background-size: cover;
 }
 .lgx-banner12 {
-  background: url(../img/banner-inner2.jpg) top center no-repeat;
+  background: url(../img/bhubimage.jpg) top center no-repeat;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -6601,6 +6608,16 @@ button:hover:after {
 }
 .lgx-banner-info .location {
   color: #fff;
+}
+.date-text{
+  background: linear-gradient(to top left,#ff75c3,#ffa647,#ffe83f,#9fff5b,#70e2ff,#cd93ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.location-text{
+  background: linear-gradient(to top left,#ff75c3,#ffa647,#ffe83f,#9fff5b,#70e2ff,#cd93ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .lgx-banner-info-circle .info-circle-inner .date span,
 .lgx-banner-info-date .date span {
