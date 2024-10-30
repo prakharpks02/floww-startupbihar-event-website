@@ -296,7 +296,7 @@ jQuery( document ).ready( function($) {
             ]
         } );
     } else {
-        $(document.body).append('<div class="lgx-switcher-loader"></div>');
+        $(document.body).append('');
     }
 
 } );
